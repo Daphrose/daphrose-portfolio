@@ -1,0 +1,72 @@
+.skills {
+
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 100px 8%;
+
+    background-color: #161B22;
+}
+
+.skills-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+.skill-card {
+
+    background-color: #0E1117;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #30363D;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.skill-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: #00CC96;
+
+    color: #00CC96;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 992px) {
+
+    .skills {
+
+        padding: 80px 20px;
+    }
+
+    .skills-container {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .skills-container {
+
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,80 @@
+.about {
+    width: 100%;
+   
+
+     padding: 80px 8%;
+
+    background-color: #161B22;
+}
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 3rem;
+    color: white;
+
+    margin-bottom: 60px;
+}
+
+.about-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.about-card {
+
+    background-color: #0E1117;
+
+    padding: 40px 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #30363D;
+
+    transition: 0.3s;
+}
+
+.about-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color: #00CC96;
+}
+
+.about-card h2 {
+
+    color: #00CC96;
+
+    margin-bottom: 20px;
+}
+
+.about-card p {
+
+    color: #C9D1D9;
+
+    line-height: 1.8;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 992px) {
+
+    .about {
+
+        padding: 80px 20px;
+    }
+
+    .about-container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+
+        font-size: 2.3rem;
+    }
+}

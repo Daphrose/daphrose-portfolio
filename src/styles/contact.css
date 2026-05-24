@@ -1,0 +1,77 @@
+.contact {
+
+    width: 100%;
+   
+
+    padding: 80px 8%;
+
+    background-color: #0E1117;
+}
+
+.contact-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.contact-card {
+
+    background-color: #161B22;
+
+    padding: 40px 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #30363D;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color: #00CC96;
+}
+
+.contact-card h2 {
+
+    color: #00CC96;
+
+    margin-bottom: 20px;
+}
+
+.contact-card p,
+.contact-card a {
+
+    color: #C9D1D9;
+
+    text-decoration: none;
+
+    line-height: 1.8;
+}
+
+.contact-card a:hover {
+
+    color: #00CC96;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 992px) {
+
+    .contact {
+
+        padding: 80px 20px;
+    }
+
+    .contact-container {
+
+        grid-template-columns: 1fr;
+    }
+}
