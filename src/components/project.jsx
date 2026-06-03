@@ -2,6 +2,7 @@ import "../styles/project.css"
 
 import aiDashboard from "../assets/ai-dashboard.png"
 import excelDashboard from "../assets/excel-dashboard.png"
+import powerbiDashboard from "../assets/dashboard.png"
 
 function Projects() {
 
@@ -52,6 +53,45 @@ function Projects() {
 
         </div>
 
+        {/* PROJECT 3 */}
+
+<div className="project-card">
+
+  <img src={powerbiDashboard} alt="Power BI Dashboard" />
+
+  <div className="project-content">
+
+    <h2>Power BI Sales Analytics Dashboard</h2>
+
+    <p>
+      An interactive Power BI dashboard built using DAX measures,
+      KPI cards, slicers, and business intelligence visualizations
+      to analyze customer behavior, transaction performance,
+      revenue trends, and category insights.
+    </p>
+
+    <div className="tech-stack">
+
+      <span>Power BI</span>
+      <span>DAX</span>
+      <span>Business Intelligence</span>
+
+    </div>
+
+    <a
+      href="https://github.com/Daphrose/POWERBI_DASHBOARD"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>
+        View Project
+      </button>
+    </a>
+
+  </div>
+
+</div>
+
         {/* PROJECT 2 */}
 
         <div className="project-card">
@@ -63,13 +103,13 @@ function Projects() {
             <h2> Excel Sales Dashboard</h2>
 
             <p>
-              A business intelligence dashboard created using Excel,
+              A business intelligence dashboard created using,
               Pivot Tables, KPIs, and sales analytics visualizations.
             </p>
 
             <div className="tech-stack">
 
-              <span>Excel</span>
+            
               <span>Pivot Tables</span>
               <span>KPIs</span>
               <span>Analytics</span>
