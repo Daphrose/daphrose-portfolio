@@ -3,6 +3,7 @@ import "../styles/project.css"
 import aiDashboard from "../assets/ai-dashboard.png"
 import excelDashboard from "../assets/excel-dashboard.png"
 import powerbiDashboard from "../assets/dashboard.png"
+import modelKra from "../assets/modelkra.jpeg";
 
 function Projects() {
 
@@ -127,6 +128,46 @@ function Projects() {
           </div>
 
         </div>
+
+
+        <div className="project-card">
+
+          <img src={modelKra} alt="Model KRA Dashboard" />
+
+          <div className="project-content">
+
+            <h2> Kra Analytics Dashboard</h2>
+
+            <p>
+             Developed an end-to-end Business Intelligence solution that simulates a tax authority's analytics workflow.
+              The project uses Python (Pandas) to perform ETL by loading CSV datasets into a SQLite database, where SQL 
+              queries are used for data validation and analysis. The processed data is then connected to Power BI, where a relational data model, DAX measures, KPIs, 
+             and interactive dashboards provide insights into tax revenue, taxpayer compliance, and complaint trends.
+            </p>
+
+            <div className="tech-stack">
+
+            
+              <span>Python</span>
+              <span>pandas</span>
+              <span>SQlite</span>
+               <span>SQL</span>
+                <span>Powerbi</span>
+
+            </div>
+
+            <a
+             href="https://github.com/Daphrose/advanced-kra-dashboard" target="_blank"  
+            >
+              <button>
+                View Project
+              </button>
+            </a>
+
+          </div>
+
+        </div>
+        
 
       </div>
 
