@@ -17,11 +17,10 @@ function About() {
           <h2>Who I Am</h2>
 
           <p>
-                I am Obuya  Daphrose, a Computer Science finalist from Chuka University
-            with a growing passion for Data Analytics and business intelligence.
-            I enjoy working with data to uncover patterns, generate insights,
-            and build solutions that help transform raw information into
-            meaningful decision-making tools.
+          I am an AI Data Analyst and RAG Application Developer passionate about transforming raw data into actionable business intelligence. 
+          I build AI-powered applications that combine data analytics, SQL, retrieval-augmented generation (RAG), 
+          and large language models (LLMs) to deliver context-aware answers and meaningful insights. 
+          My work focuses on connecting structured business data with AI to create intelligent analytics solutions that support smarter, data-driven decisions.
           </p>
 
         </div>
@@ -31,12 +30,17 @@ function About() {
           <h2> What I Do</h2>
 
           <p>
-             My analytics journey began through exploring data visualization,
-            dashboard development, and sales analysis projects.
-            Over time, I have gained experience in data cleaning,
-            KPI generation, exploratory data analysis (EDA),
-            and interactive dashboard creation using tools like
-            Python, Pandas, Plotly, Excel, Streamlit, and SQL.
+             I build AI-powered data analytics solutions that
+  transform complex datasets into actionable business
+  insights. My work combines data cleaning, exploratory
+  data analysis (EDA), SQL analytics, and interactive
+  dashboards with Retrieval-Augmented Generation (RAG)
+  and large language models (LLMs). I develop intelligent
+  applications that connect business data with AI,
+  enabling users to ask questions in natural language,
+  retrieve relevant knowledge, and make data-driven
+  decisions. My toolkit includes Python, Pandas, SQL,
+  Power BI, Streamlit, vector databases, and LLM APIs.
           </p>
 
         </div>

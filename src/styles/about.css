@@ -1,80 +1,93 @@
+
 .about {
     width: 100%;
-   
-
-     padding: 80px 8%;
-
+    max-width: 100%;
+    padding: 80px 8%;
     background-color: #161B22;
+    box-sizing: border-box;
 }
 
 .section-title {
-
     text-align: center;
-
-    font-size: 3rem;
+    font-size: clamp(2rem, 4vw, 3rem);
     color: white;
-
     margin-bottom: 60px;
+    overflow-wrap: break-word;
 }
 
 .about-container {
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 30px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .about-card {
-
+    min-width: 0;
+    max-width: 100%;
     background-color: #0E1117;
-
     padding: 40px 30px;
-
     border-radius: 15px;
-
     border: 1px solid #30363D;
-
-    transition: 0.3s;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
 }
 
 .about-card:hover {
-
-    transform: translateY(-10px);
-
     border-color: #00CC96;
 }
 
 .about-card h2 {
-
     color: #00CC96;
-
     margin-bottom: 20px;
+    overflow-wrap: anywhere;
 }
 
 .about-card p {
-
     color: #C9D1D9;
-
     line-height: 1.8;
+    overflow-wrap: anywhere;
+    margin: 0;
 }
 
-/* RESPONSIVE DESIGN */
-
+/* Tablets and smaller screens */
 @media screen and (max-width: 992px) {
-
     .about {
-
-        padding: 80px 20px;
+        padding: 60px 20px;
     }
 
     .about-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+    }
 
-        grid-template-columns: 1fr;
+    .about-card {
+        padding: 30px 24px;
     }
 
     .section-title {
+        margin-bottom: 40px;
+    }
+}
 
-        font-size: 2.3rem;
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 50px 16px;
+    }
+
+    .about-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .about-card {
+        padding: 25px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
     }
 }

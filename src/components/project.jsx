@@ -4,6 +4,9 @@ import aiDashboard from "../assets/ai-dashboard.png"
 import excelDashboard from "../assets/excel-dashboard.png"
 import powerbiDashboard from "../assets/dashboard.png"
 import modelKra from "../assets/modelkra.jpeg";
+import ai1 from "../assets/ai1.jpeg";
+import ai2 from "../assets/ai2.jpeg";
+
 
 function Projects() {
 
@@ -128,6 +131,60 @@ function Projects() {
           </div>
 
         </div>
+         
+{/* Supermarket AI Data Analyst */}
+<div className="project-card">
+
+  <div className="project-images">
+    <img
+      src={ai1}
+      alt="Supermarket AI Data Analyst interface"
+    />
+
+    <img
+      src={ai2}
+      alt="Supermarket AI analytics results"
+    />
+  </div>
+
+  <div className="project-content">
+
+    <h2>Supermarket AI Data Analyst</h2>
+
+    <p>
+      Developed an AI-powered business analytics application
+      that combines Retrieval-Augmented Generation (RAG),
+      SQL Server, and large language models (LLMs) to
+      transform business data into actionable insights.
+      The system retrieves relevant business knowledge,
+      performs dynamic SQL-based analysis, and generates
+      natural-language answers through a Streamlit interface.
+      The project also includes an interactive Power BI
+      dashboard for exploring sales, revenue, and profitability.
+    </p>
+
+    <div className="tech-stack">
+      <span>Python</span>
+      <span>RAG</span>
+      <span>SQL Server</span>
+      <span>Gemini API</span>
+      <span>Streamlit</span>
+      <span>Power BI</span>
+      <span>ChromaDB</span>
+    </div>
+
+    <a
+      href="https://github.com/Daphrose/AI-Dashboard"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>
+        View Project
+      </button>
+    </a>
+
+  </div>
+</div>
 
 
         <div className="project-card">

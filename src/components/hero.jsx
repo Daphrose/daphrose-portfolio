@@ -15,13 +15,16 @@ function Hero() {
         </h1>
 
         <h2>
-          Aspiring Data Analyst & AI Analytics Enthusiast
+           AI Data Analyst and RAG Application Developer
         </h2>
 
         <p>
-          I build interactive dashboards, AI-powered analytics applications,
-          and modern data-driven solutions using Python, Streamlit, React,
-          SQL, and visualization tools.
+           I build AI-powered analytics applications that
+          connect business data with large language models
+          to deliver intelligent insights and context-aware
+          answers. Using Python, SQL, RAG, Streamlit, and
+          Power BI, I transform raw data into practical
+          solutions that support smarter decisions.
         </p>
 
         <div className="hero-buttons">
